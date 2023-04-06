@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);/*圓體*/
+
+@import url(https://fonts.googleapis.com/css2?family=Rubik&display=swap);/*Rubik*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'cwTeXYen','Rubik',sans-serif;
+}
+#header{
+    text-align: center;
+    position: relative;
+    height: 200px;
+}
+#header img{
+    opacity: 0.3;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 3%;
+}
+.inner{
+    width: 60%;
+    text-align: center;
+    font-size: x-large;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+}
+.inner h1{
+    padding: 15px 0px 10px 0px;
+}
+.inner p{
+    padding: 0px 0px 20px 0px;
+}
+.content{
+    width: 60%;
+    margin: 20px 200px 5px 150px;
+    font-size: x-large;
+}
+.content h2{
+    margin: 0px 0px 15px;
+}
+.content p{
+    margin: 0px 0px 0px 55px;
+}
+#con_author{
+    display: flex;
+    margin-left: 15%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    
+}
+#con_web{
+    margin-left: 20%;
+}
+.two{
+    display: flex;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.col{
+    display: block;
+    margin: auto;
+}
+#col_as{
+    margin-right: 5%;
+}
+#col_com{
+    margin-left: 5%;
+}
+button{
+    font-size: medium;
+    padding: 2%;
+    border-radius: 10%;
+}
+#bottom{
+    background-color: rgba(11, 57, 97, 0.411);
+    text-align: center;
+    height: 80px;
+    padding: 30px;
+    border-radius: 5%;
+}
+#bottom a{
+    text-decoration: none;
+    font-size: large;
+    color: white;
+}
+#bottom p{
+    margin: 10px;
+    font-size: large;
+    color: white;
+}
+img{
+    border-radius: 10%;
+}
