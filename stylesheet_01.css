@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);/*圓體*/
+
+@import url(https://fonts.googleapis.com/css2?family=Rubik&display=swap);/*Rubik*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'cwTeXYen','Rubik',sans-serif;
+}
+#header{
+    text-align: center;
+    position: relative;
+    height: 200px;
+}
